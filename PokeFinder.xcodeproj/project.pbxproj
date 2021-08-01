@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		84D012262A5155AEAB3F3660 /* Pods_PokeFinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD93E1A5C88DF8404141FCAB /* Pods_PokeFinder.framework */; };
+		C1C1176034E97C610E8FEEB4 /* Pods_PokeFinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 820D836B172C8E9DE1EAEFFC /* Pods_PokeFinderTests.framework */; };
+		C4376AA716316F2A274251B5 /* Pods_PokeFinder_PokeFinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 941A4D36DA66D920D89841E5 /* Pods_PokeFinder_PokeFinderUITests.framework */; };
 		F87BB4FD26B744F1007D8B8C /* PokeFinderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87BB4FC26B744F1007D8B8C /* PokeFinderApp.swift */; };
 		F87BB4FF26B744F1007D8B8C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87BB4FE26B744F1007D8B8C /* ContentView.swift */; };
 		F87BB50126B744F3007D8B8C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F87BB50026B744F3007D8B8C /* Assets.xcassets */; };
@@ -33,6 +36,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06C41F2752BFE967AE829E65 /* Pods-PokeFinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFinder.release.xcconfig"; path = "Target Support Files/Pods-PokeFinder/Pods-PokeFinder.release.xcconfig"; sourceTree = "<group>"; };
+		0FCB72D5207869FAF4138C97 /* Pods-PokeFinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFinder.debug.xcconfig"; path = "Target Support Files/Pods-PokeFinder/Pods-PokeFinder.debug.xcconfig"; sourceTree = "<group>"; };
+		7C32504F9693DD8D1D0E12D8 /* Pods-PokeFinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFinderTests.release.xcconfig"; path = "Target Support Files/Pods-PokeFinderTests/Pods-PokeFinderTests.release.xcconfig"; sourceTree = "<group>"; };
+		820D836B172C8E9DE1EAEFFC /* Pods_PokeFinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeFinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		941A4D36DA66D920D89841E5 /* Pods_PokeFinder_PokeFinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeFinder_PokeFinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD93E1A5C88DF8404141FCAB /* Pods_PokeFinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PokeFinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DCEC8B9ACDA0B09328E1C47A /* Pods-PokeFinder-PokeFinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFinder-PokeFinderUITests.release.xcconfig"; path = "Target Support Files/Pods-PokeFinder-PokeFinderUITests/Pods-PokeFinder-PokeFinderUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F0532F4681BE08339A6B1C89 /* Pods-PokeFinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFinderTests.debug.xcconfig"; path = "Target Support Files/Pods-PokeFinderTests/Pods-PokeFinderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F56D06D20480D6A8C4EACC48 /* Pods-PokeFinder-PokeFinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PokeFinder-PokeFinderUITests.debug.xcconfig"; path = "Target Support Files/Pods-PokeFinder-PokeFinderUITests/Pods-PokeFinder-PokeFinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		F87BB4F926B744F1007D8B8C /* PokeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87BB4FC26B744F1007D8B8C /* PokeFinderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokeFinderApp.swift; sourceTree = "<group>"; };
 		F87BB4FE26B744F1007D8B8C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84D012262A5155AEAB3F3660 /* Pods_PokeFinder.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1C1176034E97C610E8FEEB4 /* Pods_PokeFinderTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +80,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4376AA716316F2A274251B5 /* Pods_PokeFinder_PokeFinderUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1168EE93C4EBF3A2F4849760 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD93E1A5C88DF8404141FCAB /* Pods_PokeFinder.framework */,
+				941A4D36DA66D920D89841E5 /* Pods_PokeFinder_PokeFinderUITests.framework */,
+				820D836B172C8E9DE1EAEFFC /* Pods_PokeFinderTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		124212F6C2E95DB29ACFC451 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0FCB72D5207869FAF4138C97 /* Pods-PokeFinder.debug.xcconfig */,
+				06C41F2752BFE967AE829E65 /* Pods-PokeFinder.release.xcconfig */,
+				F56D06D20480D6A8C4EACC48 /* Pods-PokeFinder-PokeFinderUITests.debug.xcconfig */,
+				DCEC8B9ACDA0B09328E1C47A /* Pods-PokeFinder-PokeFinderUITests.release.xcconfig */,
+				F0532F4681BE08339A6B1C89 /* Pods-PokeFinderTests.debug.xcconfig */,
+				7C32504F9693DD8D1D0E12D8 /* Pods-PokeFinderTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		F87BB4F026B744F1007D8B8C = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +118,8 @@
 				F87BB50D26B744F4007D8B8C /* PokeFinderTests */,
 				F87BB51826B744F4007D8B8C /* PokeFinderUITests */,
 				F87BB4FA26B744F1007D8B8C /* Products */,
+				124212F6C2E95DB29ACFC451 /* Pods */,
+				1168EE93C4EBF3A2F4849760 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +178,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F87BB51E26B744F4007D8B8C /* Build configuration list for PBXNativeTarget "PokeFinder" */;
 			buildPhases = (
+				685B5B24A8E9AE4EC35CACCF /* [CP] Check Pods Manifest.lock */,
 				F87BB4F526B744F1007D8B8C /* Sources */,
 				F87BB4F626B744F1007D8B8C /* Frameworks */,
 				F87BB4F726B744F1007D8B8C /* Resources */,
@@ -154,6 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F87BB52126B744F4007D8B8C /* Build configuration list for PBXNativeTarget "PokeFinderTests" */;
 			buildPhases = (
+				AD9963AAA96CD057D3B06D42 /* [CP] Check Pods Manifest.lock */,
 				F87BB50626B744F4007D8B8C /* Sources */,
 				F87BB50726B744F4007D8B8C /* Frameworks */,
 				F87BB50826B744F4007D8B8C /* Resources */,
@@ -172,6 +215,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F87BB52426B744F4007D8B8C /* Build configuration list for PBXNativeTarget "PokeFinderUITests" */;
 			buildPhases = (
+				C43F748E1EE0B4E29FC7DE1D /* [CP] Check Pods Manifest.lock */,
 				F87BB51126B744F4007D8B8C /* Sources */,
 				F87BB51226B744F4007D8B8C /* Frameworks */,
 				F87BB51326B744F4007D8B8C /* Resources */,
@@ -253,6 +297,75 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		685B5B24A8E9AE4EC35CACCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokeFinder-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AD9963AAA96CD057D3B06D42 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokeFinderTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C43F748E1EE0B4E29FC7DE1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PokeFinder-PokeFinderUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		F87BB4F526B744F1007D8B8C /* Sources */ = {
@@ -414,6 +527,7 @@
 		};
 		F87BB51F26B744F4007D8B8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FCB72D5207869FAF4138C97 /* Pods-PokeFinder.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +550,7 @@
 		};
 		F87BB52026B744F4007D8B8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06C41F2752BFE967AE829E65 /* Pods-PokeFinder.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -458,6 +573,7 @@
 		};
 		F87BB52226B744F4007D8B8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0532F4681BE08339A6B1C89 /* Pods-PokeFinderTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +596,7 @@
 		};
 		F87BB52326B744F4007D8B8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C32504F9693DD8D1D0E12D8 /* Pods-PokeFinderTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +619,7 @@
 		};
 		F87BB52526B744F4007D8B8C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F56D06D20480D6A8C4EACC48 /* Pods-PokeFinder-PokeFinderUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +640,7 @@
 		};
 		F87BB52626B744F4007D8B8C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCEC8B9ACDA0B09328E1C47A /* Pods-PokeFinder-PokeFinderUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
